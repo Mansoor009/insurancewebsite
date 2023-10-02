@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="claim.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="nav-wrapper">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light-subtle pb-3 pt-3">
+            <a class="navbar-brand ml-5 text-dark" href="#">NAVBAR</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto ml-auto">
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="claim.html">Make a Claim</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="posc.html">POS Corner</a>
+                    </li>
+                    <li class="nav-item active mr-4">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0 mr-5">
+                    <button class="btn btn-dark my-2 my-sm-0 pl-3 pr-3" type="submit"><i class="fa fa-sign-in"
+                            aria-hidden="true"></i> LOGIN</button>
+                </form>
+            </div>
+        </nav>
+    </section>
+    <section class="claim-head-wrapper">
+        <div class="container">
+            <div class="claim-head-cover">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="header-claim">
+                            <h2>An advisor in need is an advisor indeed</h2>
+                            <p> Unlock your full potential with expert guidance</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="claim-img">
+                            <img src="images/medical-insurance-family-health-insurance-protection-concept-umbrella-healthcare-landing-page-flat-illustration-vector-template-banner_128772-2084-removebg-preview.png"
+                                alt="" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="claim-card-wrapper">
+        <div class="container">
+            <div class="card-cover">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <img src="images/make-claim-faster-settlement.png" alt="">
+                            <div class="card-content">
+                                <p>Faster Settlement</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <img src="images/make-claim-quick-resolution.png" alt="">
+                            <p>Quick <br>Resolution</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card-box">
+                            <img src="images/make-claim-support.png" alt="">
+                            <p>24/7 Support </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="claim-form">
+        <div class="container">
+            <div class="form-cover">
+                <div class="row">
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-8">
+                        <div class="main-form-cover">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-12 mb-3 d-flex justify-content-center"><h3>Register Your Claim</h3></div>
+                                    <div class="col-lg-4 mb-3">
+                                        <div class="make-claim-feature-select-wrap">
+                                            <div class="form-group">
+                                                <label for="insurance_claim_id">Select insurance type</label>
+                                                <select class="form-control" id="insurance_claim_id"
+                                                    name="insurance_claim_id">
+                                                    <option value="" disabled selected>Select insurance type</option>
+                                                    <option value="33">AGRICULTURE</option>
+                                                    <option value="13">ALL RISK INSURANCE</option>
+                                                    <option value="14">AVIATION INSURANCE</option>
+                                                    <option value="15">BAGGAGE INSURANCE</option>
+                                                    <option value="7">BURGLARY INSURANCE</option>
+                                                    <option value="16">CATTLE INSURANCE</option>
+                                                    <option value="17">CREDIT INSURANCE</option>
+                                                    <option value="18">CRIME INSURANCE</option>
+                                                    <option value="9">ELECTRONIC EQUIPMENT INSURANCE</option>
+                                                    <option value="29">ENGINEERING INSURANCE</option>
+                                                    <option value="19">FARMER PACKAGE</option>
+                                                    <option value="8">FIDELITY INSURANCE</option>
+                                                    <option value="20">FINE ARTS INSURANCE</option>
+                                                    <option value="6">FIRE INSURANCE</option>
+                                                    <option value="2">HEALTH</option>
+                                                    <option value="21">JEWELLERS BLOCK</option>
+                                                    <option value="30">LIABILITY INSURANCE</option>
+                                                    <option value="3">LIFE</option>
+                                                    <option value="22">LOSS OF PROFIT</option>
+                                                    <option value="23">LPG DEALER PACKAGE INSURANCE</option>
+                                                    <option value="10">MACHINERY INSURANCE</option>
+                                                    <option value="4">MARINE</option>
+                                                    <option value="24">MILTIMODAL TRANSPORT OPERATOR</option>
+                                                    <option value="32">MISCELLANEOUS</option>
+                                                    <option value="12">MONEY INSURANCE</option>
+                                                    <option value="1">MOTOR</option>
+                                                    <option value="25">NEON SIGN</option>
+                                                    <option value="26">PET DOG INSURANCE</option>
+                                                    <option value="11">PLATE GLASS INSURANCE</option>
+                                                    <option value="27">SPECIAL CONTINGENCY INSURANCE</option>
+                                                    <option value="28">TRADE PROTECTOR INSURANCE</option>
+                                                    <option value="31">TRAVEL INSURANCE</option>
+                                                    <option value="5">WORKMEN</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-3">
+                                        <div class="form-group">
+                                            <label for="insurer_name">Name</label>
+                                            <input type="text" class="form-control" id="insurer_name" name="insurer_name" aria-describedby="Insurer Name" placeholder="Enter Insurer Name">
+                                        </div>
+                                    </div>
+        
+                                    <div class="col-lg-4 mb-3">
+                                        <div class="form-group">
+                                            <label for="insurer_email">Email address</label>
+                                            <input type="email" class="form-control" id="insurer_email" name="insurer_email" aria-describedby="Insurer Email" placeholder="Enter Insurer Email">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-3">
+                                        <div class="form-group">
+                                            <label for="insurer_mobile">Mobile number</label>
+                                            <input type="text" class="form-control num_value" maxlength="10" minlength="10" id="insurer_mobile" name="insurer_mobile" placeholder="Enter mobile Insurer Email Number">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-3">
+                                        <div class="form-group">
+                                            <label for="insurer_pincode">Pincode</label>
+                                            <input type="text" class="form-control pincode num_value" id="insurer_pincode" name="insurer_pincode" maxlength="6" minlength="6" placeholder="Enter pincode">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-3">
+                                        <div class="form-group">
+                                            <label for="insurer_city">City</label>
+                                            <input type="text" class="form-control" id="insurer_city" name="insurer_city" aria-describedby="Insurer City" placeholder="Enter Insurer city">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4 mb-3">
+                                        
+                                    </div>
+                                    <div class="col-lg-4 mb-3 d-flex justify-content-center">
+                                    <button type="submit" class="border-btn">Submit</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-2"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-wrapper">
+        <div class="container">
+            <div class="footer-cover">
+                <div class="row ml-auto mr-auto ">
+                    <div class="col-lg-5">
+                        <div class="broker-col-1">
+                            <h3>Insurance Brokers Private Limited</h3>
+                            <ul class="info-list p-0">
+                                <li>CIN Number - e621e762346r23r4456562</li>
+                                <li>IRDAI License number - IRDAI/DB 373450/233</li>
+                                <li>License Category: Lorem ipsum dolor sit.</li>
+                                <li><a href="#"><span class="foot-span">Registered Office: </span>Lorem ipsum dolor sit,
+                                        amet consectetur adipisicing elit.</a></li>
+                                <li><a href="#"><span class="foot-span">Mobile Number</span> +91 1235467980</a></li>
+                                <li><a href="#"><span class="foot-span">Email ID</span>
+                                        support@wefrefregtjbrokers.in</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="broker-col-1">
+                            <h3>QUICK LINKS</h3>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <ul class="link-list p-0">
+                                        <li><a href="#">POSP corner</a></li>
+                                        <li><a href="#">Make a claim</a></li>
+                                        <li><a href="#">Contact us</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <ul class="link-list p-0">
+                                        <li><a href="#">Code of conduct</a></li>
+                                        <li><a href="#">License download</a></li>
+                                        <li><a href="#">Current opening</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-4">
+                                    <ul class="link-list p-0">
+                                        <li><a href="#">Our Gallery</a></li>
+                                        <li><a href="#">Claim Form</a></li>
+                                        <li><a href="#">Proposal Form</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="copyrigths-content-footer">
+                    <p>Copyrights © 2023 All Rights Reserved by SKIP Karo (fruhgeruigb). Powered by E-nirmaan</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://bimasolutions.com/premiuminsu/js/wow.min.js" type="text/javascript"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

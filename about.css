@@ -1,0 +1,128 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.text-dark{
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+.nav-link{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    color: rgb(112, 163, 245) !important;
+    text-decoration: underline rgb(112, 163, 245);
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.about-sect-1-wrapper{
+    padding-top: 60px;
+}
+.not-cover {
+    background-color: #dff0ff;
+    border-radius: 0 200px 200px 0;
+} 
+.about-1-content{
+    margin-right: 65px;
+}
+.about-1-content h3{
+    font-weight: 600;
+}
+.about-1-img{
+    margin-left: 65px;
+}
+.about-span{
+    color:rgb(112, 163, 245) ;
+}
+.about-1-content p{
+    font-size: 15px;
+}
+.about-card-wrapper{
+    padding:60px 0;
+}
+.card-about {
+    background-image: linear-gradient(to bottom right,rgb(112, 163, 245),white);
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    text-align: center;
+    width: 90%;
+}
+
+.card-about h4 {
+    margin-top: 9px;
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+.card-about p {
+    font-size: 14px;
+}
+
+.icon {
+        border-radius: 50%;
+        margin-bottom: 16px;
+}
+.about-head h2{
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+hr{
+    border: 1.5px dashed rgb(112, 163, 245);
+}
+.footer-wrapper{
+    background-color: rgb(238, 245, 255);
+    padding-top:30px ;    
+}
+.broker-col-1 h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.broker-col-1 ul{
+    list-style: none;
+}
+.broker-col-1 li{
+    margin-bottom: 20px;
+    font-size: 16px;
+}   
+.broker-col-1 a{
+    text-decoration: none;
+    color: black;
+}
+.broker-col-1 a:hover{
+   text-decoration: underline;
+}
+.foot-span{
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+    letter-spacing: 1px;
+}
+.copyrigths-content-footer p{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.copyrigths-content-footer{
+    background-color: rgb(112, 163, 245);
+    border-radius: 20px;
+   
+}
+@media screen and (max-width:991px) {
+    .about-1-content{
+        margin-top: 30px;
+        text-align: center;
+    }
+}

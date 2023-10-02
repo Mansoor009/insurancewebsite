@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.text-dark{
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+.nav-link{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    color: rgb(112, 163, 245) !important;
+    text-decoration: underline rgb(112, 163, 245);
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header-claim h2 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 51px;
+}
+.header-claim p {
+    color: rgb(112, 163, 245);
+    font-size: 22px;
+}
+.claim-card-wrapper{
+    margin: 50px 0;
+}
+.card-box{
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: rgb(161, 191, 240) 0px 3px 8px;
+    border-radius: 20px;
+}
+.card-box p{
+    margin: 8px;
+}
+.main-form-cover {
+    box-shadow: rgb(161, 191, 240) 0px 3px 8px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+.main-form-cover h3{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.border-btn {
+    background-color: rgb(112, 163, 245);
+    font-size: 15px;
+    padding: 6px 18px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+hr{
+    border: 1.5px dashed rgb(112, 163, 245);
+}
+.footer-wrapper{
+    background-color: rgb(238, 245, 255);
+    padding-top:30px;    
+}
+.broker-col-1 h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.broker-col-1 ul{
+    list-style: none;
+}
+.broker-col-1 li{
+    margin-bottom: 20px;
+    font-size: 16px;
+}   
+.broker-col-1 a{
+    text-decoration: none;
+    color: black;
+}
+.broker-col-1 a:hover{
+   text-decoration: underline;
+}
+.foot-span{
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+    letter-spacing: 1px;
+}
+.copyrigths-content-footer p{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.copyrigths-content-footer{
+    background-color: rgb(112, 163, 245);
+    border-radius: 20px;
+   
+}

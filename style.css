@@ -1,0 +1,315 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+    overflow-x: hidden;
+}
+.slide{
+    opacity: 0;
+    transition: all 0.7s ease-in-out;
+}
+.slide_show{
+    opacity: 1;
+}
+.text-dark{
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+.nav-link{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    color: rgb(112, 163, 245) !important;
+    text-decoration: underline rgb(112, 163, 245);
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.hero-wrapper{
+    background-color: white;
+    padding: 40px 0px;
+    margin-bottom: 50px;
+}
+.hero-content{
+    padding: 0 20px;
+}
+.hero-content h2{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.card-box{
+    border: 2px solid rgb(144, 179, 235);
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow:rgb(112, 163, 245)  6px 6px 0px 0px;
+    margin-top: 20px;
+}
+
+.hero-img img {
+    width: 95%;
+}
+.card-box p{
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    
+}
+.hero-card-cover img {
+    width: 31%;
+    margin-bottom: -90px;
+    margin-left: -26px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(144, 179, 235);
+}
+.hero-card-cover{
+    transition: 150ms ease-in;
+}
+.hero-card-cover:hover{
+    transform: translateY(-6px);
+}
+.about-us-wrapper{
+    padding: 10px 0;
+}
+.about-content h2{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.card-box-service{
+    text-align: center;
+    border: 3px solid rgb(144, 179, 235);
+    padding: 10px 30px;
+    background-color: white;
+    transition: all;
+    transition-duration: 250ms;
+    transition-timing-function: ease-in-out;
+    border-radius: 8px;
+    margin-right: 20px;
+    box-shadow:rgb(112, 163, 245)  12px 12px 0px 0px;
+    margin-bottom: 10px;
+}
+
+.card-box-service h5{
+    font-size: 23px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.card-box-service p{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.logo{
+    padding: 20px;
+    background-color: white;
+}
+.inner-card-cover img {
+    width: 22%;
+    margin-bottom: -210px;
+    margin-left: -26px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(112, 163, 245);
+}
+.card-main-wrapper{
+    background-color: white;
+    padding:40px 0;
+    margin-bottom: 40px;
+}
+.service-content {
+    padding-right: 50px;
+}
+.service-content h2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    
+}
+.service-content h4 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.service-content p {
+    margin-bottom: 20px;
+}
+.why-choose-main-wrapper{
+    background-color: white;
+    padding: 20px 0px;
+}
+.card-box-choose{
+    margin-bottom: 5px;
+    padding: 15px 10px 0 10px;
+    background-color: white;
+    border-radius: 8px;
+    margin-right: 20px;
+    margin-left: 20px;
+    box-shadow:rgb(112, 163, 245)  6px 6px 0px 0px;
+    margin-top: 20px;
+    border: 0.5px solid rgb(112, 163, 245);
+}
+.card-box-choose p{
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+.choose-card-cover img {
+    width: 12%;
+    margin-bottom: -75px;
+    margin-left: 0px;
+    background-color: white;
+    padding: 5px 5px;
+    border-radius: 50%;
+    border: 3px solid rgb(112, 163, 245);
+    
+}
+.choose-header h2 {
+    font-size: 35px;
+    font-weight: 900;
+    text-align: center;
+}
+ span{
+    color: rgb(112, 163, 245);
+}
+.our-partner-wrapper{
+    padding: 10px 0;
+    margin: 60px 0;
+}
+.partner-img img{
+    width: 95%;
+    margin: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.partner-header h2{
+    margin-bottom: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.our-partner-cover{
+    margin: 10px 0;
+}
+hr{
+    border: 1.5px dashed rgb(112, 163, 245);
+}
+.footer-wrapper{
+    background-color: rgb(238, 245, 255);
+    padding-top:30px;    
+}
+.broker-col-1 h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.broker-col-1 ul{
+    list-style: none;
+}
+.broker-col-1 li{
+    margin-bottom: 20px;
+    font-size: 16px;
+}   
+.broker-col-1 a{
+    text-decoration: none;
+    color: black;
+}
+.broker-col-1 a:hover{
+   text-decoration: underline;
+}
+.foot-span{
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+    letter-spacing: 1px;
+}
+.copyrigths-content-footer p{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.copyrigths-content-footer{
+    background-color: rgb(112, 163, 245);
+    border-radius: 20px;
+   
+}
+@media screen and (max-width:991px) {
+    .hero-content h2{
+        font-size: 25px;
+    }
+    .hero-content p{
+        font-size: 14px;
+    }
+    .hero-card-cover img {
+        width: 22%;
+    }
+    .hero-img img {
+        width: 80%;
+    }
+    .service-content {
+        padding-right:0;
+    }
+    .inner-card-cover img {
+        width: 22%;
+        margin-bottom: -194px;
+        margin-left: -30px;
+    }
+    .choose-card-cover img {
+        width: 9%;
+        margin-bottom: -75px;
+        margin-left: 3px;
+    }
+    .partner-img img{
+        width: 85%;
+    }
+    .broker-col-1 li{
+        margin-bottom: 10px;
+    }   
+}
+@media screen and (max-width:500px) {
+    .hero-card-cover img {
+        width: 31%;
+    }
+}
+@media screen and (max-width:1200px) {
+    .inner-card-cover img {
+        width: 26%;
+        margin-bottom: -220px;
+        margin-left: -26px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .card-box-service{
+        padding: 5px 50px;
+       
+    }
+    .inner-card-cover img {
+        width: 15%;
+        margin-bottom: -156px;
+        margin-left: -34px;
+    }
+}
+@media screen and (max-width:480px) {
+    .inner-card-cover img {
+        width: 60px;
+        margin-bottom: -190px;
+        margin-left: -3px;
+    }
+    .card-box-service{
+        margin-left: 25px;
+        margin-right: 25px;
+       
+    }
+}

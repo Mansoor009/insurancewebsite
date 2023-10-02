@@ -1,0 +1,121 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.text-dark{
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+.nav-link{
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.nav-link:hover{
+    color: rgb(112, 163, 245) !important;
+    text-decoration: underline rgb(112, 163, 245);
+}
+.btn:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header-pos h2{
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.pos-span{
+    color: rgb(112, 163, 245);
+}
+.card-box{
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    border-radius: 20px;
+    box-shadow: rgb(161, 191, 240) 0px 3px 8px;
+}
+.form-sign{
+    border-radius: 6px;
+    padding: 30px 20px;
+    box-shadow: rgb(161, 191, 240) 0px 3px 8px;
+}
+.submit {
+    padding: 10px 20px;
+    margin-left: 16px;
+    border-radius: 10px;
+    border: none;
+    font-size: 13px;
+    background-color: rgba(112, 163, 245);
+    color: white;
+    margin-top: 10px    ;
+}
+.form-sign label{
+    margin-top: 20px;
+}
+.form-log label{
+    margin-top: 10px;
+}
+.form-log{
+    border-radius: 6px;
+    padding: 30px 80px;
+    box-shadow: rgb(161, 191, 240) 0px 3px 8px;
+}
+.card-box h6{
+    margin-top: 10px;
+    font-weight: 600;
+}
+hr{
+    border: 1.5px dashed rgb(112, 163, 245);
+}
+.footer-wrapper{
+    background-color: rgb(238, 245, 255);
+    padding-top:30px;    
+}
+.broker-col-1 h3{
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+.broker-col-1 ul{
+    list-style: none;
+}
+.broker-col-1 li{
+    margin-bottom: 20px;
+    font-size: 16px;
+}   
+.broker-col-1 a{
+    text-decoration: none;
+    color: black;
+}
+.broker-col-1 a:hover{
+   text-decoration: underline;
+}
+.foot-span{
+    font-weight: 500;
+    text-decoration: underline;
+    color: black;
+    letter-spacing: 1px;
+}
+.copyrigths-content-footer p{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.copyrigths-content-footer{
+    background-color: rgb(112, 163, 245);
+    border-radius: 20px;
+   
+}
+@media screen and (max-width:991px) {
+    .formss{
+        margin: 40px 0;
+    }
+    .header-pos h2{
+        font-weight: 800;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+}
