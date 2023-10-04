@@ -69,8 +69,9 @@ body{
     border-radius: 50%;
     border: 2px solid rgb(144, 179, 235);
 }
-.hero-card-cover{
+.hero-card-cover {
     transition: 150ms ease-in;
+    margin-left: 22px;
 }
 .hero-card-cover:hover{
     transform: translateY(-6px);
