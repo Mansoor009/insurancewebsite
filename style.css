@@ -5,7 +5,7 @@ body{
     overflow-x: hidden;
 }
 .slide{
-    scale: 0;
+    scale: 0.7;
     opacity: 0;
     transition: all 0.7s ease-in-out;
 }
